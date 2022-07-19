@@ -1,0 +1,261 @@
+body  {
+    font-family:"Roboto", sans-serif;
+    color: var(--primery-text-color);
+    background: var(--main-light-color-text);
+}
+
+
+:root {
+    --accent-color: #2196F3 ;
+    --main-light-color-text: #FFFFFF ;
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575; 
+    --secondary-background-color: #2F303A;
+}
+
+.button {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+}
+
+
+.accent-effect .link:hover,
+.accent-effect .link:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/* Header */
+.span-logo {
+    color: var(--accent-color);
+}
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.logo-top {
+    color: #000000;
+}
+
+.logo-bot {
+    color: var(--main-light-color-text);
+}
+
+.menu-link {
+        color: inherit;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.contacts {
+    text-decoration: none;
+}
+
+.contacts-top {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--secondary-text-color);
+}
+
+.contacts-bot {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+     
+}
+/* /Header */
+
+/* Hero */
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    
+        color: var(--main-light-color-text);
+}
+
+.hero-bt {
+    font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        /* display: flex; */
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background-color: var(--accent-color);
+        color: var(--main-light-color-text);
+}
+
+/* /Hero */
+
+/* benefits */
+
+.benefits-title{
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: var(--primery-text-color);
+}
+
+.benefits-text {
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+}
+
+/* /benefits */
+
+
+/* About */
+ 
+.about-title {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primery-text-color);
+}
+
+/* /About */
+
+/* Team */
+
+.team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--primery-text-color);
+}
+
+
+.team-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--primery-text-color);
+}
+
+.team-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--secondary-text-color);
+}
+
+/* /Team */
+
+
+/* Footer */
+.page-footer {
+    background-color: #2F303A;
+}
+
+.adress-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-light-color-text);
+}
+
+
+/* /Footer */
+
+
+/* Portfolio */
+
+/* Button */
+
+.portfolio-bt {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+    
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--primery-text-color);
+}
+
+.portfolio-bt:hover,
+.portfolio-bt:focus {
+    background-color: var(--accent-color);
+    color: var(--main-light-color-text);
+}
+
+/* /Button */
+
+ .portfolio-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+    
+        letter-spacing: 0.06em;
+    
+        color: var(--primery-text-color);
+ }
+
+.portfolio-text {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+}
+
+
+.adress {
+    font-style: normal;
+}
+
+/* /Portfolio */
